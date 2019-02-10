@@ -10,11 +10,18 @@ from <库名> import <函数名>
 
 from <库名> import* 
 <函数名>(<函数参数>)
+
+import <库名> as <自定义别名>
+<别名>.<函数名>(<函数参数>)
+
 '''
 
 
 #turtle 库使用
 '''
+画布控制
+t,setup(x,y)         设置画布的像素
+
 画笔参数控制
 turtle.pendown()    turtle.pd()    笔落下
 turtle.penup()      turtle.pu()    笔抬起
@@ -39,3 +46,4 @@ t.left(angle)
 range(N)  产生0到N-1的整数序列
 range(M,N)   M到N-1
 '''
+
