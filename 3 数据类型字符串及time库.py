@@ -76,6 +76,7 @@ for i in range(12):
 
 #字符串处理方法(以字符串str为例
 '''
+str.append(c)                      将c添加到字符串str后面
 str.lower()   str.upper()          将字符串全部转换为大/小写
 str.split(sep=None)                将字符串用sep分割，返回其列表
 str.count(sub)                     返回sub在字符串出现的次数

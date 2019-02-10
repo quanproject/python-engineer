@@ -21,6 +21,7 @@ import <库名> as <自定义别名>
 '''
 画布控制
 t,setup(x,y)         设置画布的像素
+t.hideturtle()       隐藏小箭头
 
 画笔参数控制
 turtle.pendown()    turtle.pd()    笔落下
@@ -32,7 +33,8 @@ turtle.pencolor(0.63,0.13,0.94)          （rgb小数值及元祖值）
 '''
 画笔运动控制
 t.forward(d)             t.fd(d)   向正方向行进d
-t.circle(r,extend=None)            以方向左侧r处为圆心画extend角度（默认360°）     
+t.circle(r,extend=None)            以方向左侧r处为圆心画extend角度（默认360°）  
+t.write(zi,fort=(格式))            按照格式绘制汉字zi
 '''
 '''
 方向控制函数
