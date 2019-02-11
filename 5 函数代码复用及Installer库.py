@@ -36,3 +36,17 @@ print(fact2(10,4,6,2))  #调用不限个数
 '''
 f=lambda x,y:x+y
 print(f(2,3))
+
+
+#pyInstaller库(.py转换为可执行文件(.exe  第三方库
+'''
+安装：
+cmd 执行 pip install pyinstaller
+'''
+'''
+常用命令
+-F 生成打包文件
+-h 帮助菜单
+--clean 清理过程文件
+-i 关联图标(.ico)
+'''

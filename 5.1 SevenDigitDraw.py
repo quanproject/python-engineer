@@ -1,5 +1,6 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
+#七段数码管绘制
 import turtle
 import time
 def drawgap():        #数码管之间的间隔
