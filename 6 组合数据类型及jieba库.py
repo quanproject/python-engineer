@@ -146,5 +146,19 @@ len(d)
 '''
 print(4,D.items())
 
-#jieba库
-
+#jieba库（第三方中文分词库
+print("{:=^30}".format("jieba库"))
+'''
+安装：
+cmd 命令 pip install jieba
+pycharm 文件内搜索安装
+'''
+'''
+#分词模式
+jieba.lcut(s)                精确模式（原文切分
+jieba.lcut(s,cut_all=True)   全模式（所有组合列出,有冗余
+jieba.lcut_for_search(s)     搜索引擎模式（精确模式下继续分词,有冗余
+jieba.add_word(w)            向词库增加新词
+'''
+import jieba
+print(jieba.lcut("中国是一个伟大的国家"))
