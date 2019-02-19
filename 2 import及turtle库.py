@@ -20,7 +20,8 @@ import <库名> as <自定义别名>
 #turtle 库使用
 '''
 画布控制
-t,setup(x,y)         设置画布的像素
+t.setup(x,y)         设置画布的像素
+t.title(str)         设置窗口名称
 t.hideturtle()       隐藏小箭头
 
 画笔参数控制

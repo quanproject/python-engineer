@@ -24,7 +24,7 @@ def hamlet():
     for i in range(10):
         word,count=items[i]
         print(i+1,"{0:<10}{1:>5}".format(word,count))
-#hamlet()
+hamlet()
 
 #三国演义
 print("{:=^20}".format("三国演义词频"))
@@ -43,7 +43,7 @@ def threekingv1():
     for i in range(15):
         word,count = items[i]
         print(i + 1, "{0:<10}{1:>5}".format(word, count))
-#threekingv1()
+threekingv1()
 
 #三国演义人物出场统计
 print("{:=^20}".format("三国演义人物出场统计"))

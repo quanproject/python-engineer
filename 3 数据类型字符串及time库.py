@@ -78,7 +78,7 @@ for i in range(12):
 '''
 str.append(c)                      将c添加到字符串str后面
 str.lower()   str.upper()          将字符串全部转换为大/小写
-str.split(sep=None)                将字符串用sep分割，返回其列表
+str.split(sep=None)                将字符串以sep为标志分割，返回其列表
 str.count(sub)                     返回sub在字符串出现的次数
 str.replace(old,new)               将字符串中old字符替换为new字符
 str.centre(width[,fillchar])       根据宽度width居中，并用fillchar填充
