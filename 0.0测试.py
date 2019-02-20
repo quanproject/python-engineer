@@ -1,6 +1,21 @@
-import turtle
-turtle.fd(100)
-turtle.left(90)
-turtle.fd(100)
-turtle.left(45)
-turtle.fd(140)
+年利率=8.3
+
+本金=1000000
+
+日结=本金
+月结=本金
+季结=本金
+年结=本金*(年利率/100+1)
+
+
+for i in range(365):
+    日结+=日结*年利率*0.01/365
+for i in range(12):
+    月结 += 月结 * 年利率 * 0.01 /12
+for i in range(4):
+    季结 += 季结 * 年利率 * 0.01 / 4
+
+print("日结:",日结)
+print("月结:",月结)
+print("季结:",季结)
+print("年结:",年结)
