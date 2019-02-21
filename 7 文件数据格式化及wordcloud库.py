@@ -98,10 +98,9 @@ stop_word       排除部分词
 mask            指定词云形状
 background_color指定背景颜色 black
 '''
-'''
+
 import wordcloud
 txt="life is short you need python"
-w=wordcloud.WordCloud(background_color="white")
+w=wordcloud.WordCloud()
 w.generate(txt)
 w.to_file("pywcloud.png")
-'''
